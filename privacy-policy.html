@@ -51,7 +51,7 @@
     <p><strong>Last Updated:</strong> June 26, 2025</p>
 
     <h2>Overview</h2>
-    <p>On Air Mode is a macOS application that automatically enables macOS Focus mode when your microphone is active. This privacy policy explains how we handle your information.</p>
+    <p>On Air Mode is a macOS application that automatically enables macOS Focus mode when audio input devices are being used by applications. This privacy policy explains how we handle your information.</p>
 
     <div class="highlight">
         <strong>Key Point:</strong> On Air Mode processes all data locally on your device and does not collect, store, or transmit any personal information to external servers.
@@ -59,12 +59,12 @@
 
     <h2>Information We Collect</h2>
 
-    <h3>Microphone Access</h3>
+    <h3>Audio Device Monitoring</h3>
     <ul>
-        <li><strong>Purpose:</strong> To detect when your microphone is actively being used by applications</li>
-        <li><strong>Data Processed:</strong> Real-time microphone activity status (active/inactive)</li>
-        <li><strong>Storage:</strong> No microphone audio data is recorded, stored, or transmitted</li>
-        <li><strong>Local Processing:</strong> All microphone monitoring occurs locally on your device</li>
+        <li><strong>Purpose:</strong> To detect when audio input devices are actively being used by applications</li>
+        <li><strong>Data Processed:</strong> Real-time audio device activity status (active/inactive)</li>
+        <li><strong>Storage:</strong> No audio data is accessed, recorded, stored, or transmitted</li>
+        <li><strong>Local Processing:</strong> All device monitoring occurs locally using system hardware APIs</li>
     </ul>
 
     <h3>System Information</h3>
@@ -88,7 +88,7 @@
 
     <h2>How We Use Your Information</h2>
     <ul>
-        <li><strong>Microphone Monitoring:</strong> Detect when microphone becomes active to trigger Focus mode</li>
+        <li><strong>Device Monitoring:</strong> Detect when audio input devices become active to trigger Focus mode</li>
         <li><strong>System Integration:</strong> Control Focus mode through macOS Shortcuts functionality</li>
         <li><strong>User Experience:</strong> Remember your preferences for app behavior</li>
     </ul>
@@ -115,7 +115,6 @@
 
     <h3>Permission Control</h3>
     <ul>
-        <li><strong>Microphone Access:</strong> You can revoke microphone permission in System Preferences > Security & Privacy > Microphone</li>
         <li><strong>Automation Permission:</strong> You can manage AppleScript/Shortcuts permissions in System Preferences > Security & Privacy > Automation</li>
     </ul>
 
@@ -144,7 +143,7 @@
 
     <h3>What We Monitor</h3>
     <ul>
-        <li>Microphone device activity status through Core Audio APIs</li>
+        <li>Audio input device activity status through Core Audio hardware APIs</li>
         <li>No audio content is accessed, recorded, or analyzed</li>
     </ul>
 
@@ -176,9 +175,7 @@
     <h2>Permissions Summary</h2>
     <p>The app requests the following macOS permissions:</p>
     <ul>
-        <li><strong>Microphone Access:</strong> To monitor microphone activity status</li>
         <li><strong>Automation/AppleScript:</strong> To control macOS Shortcuts for Focus mode</li>
-        <li><strong>Accessibility:</strong> May be required for system integration (if applicable)</li>
     </ul>
     <p>All permissions are used solely for the app's core functionality and are not used for data collection or sharing purposes.</p>
 </body>
